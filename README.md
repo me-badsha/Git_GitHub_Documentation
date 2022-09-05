@@ -1,6 +1,6 @@
 # Git & GitHub Documentation
 
-### Lesson 2. Introduction to git and GitHub
+### Lesson 1. Introduction to git and GitHub
 
 1. git ?
    - git is a version control software
@@ -19,7 +19,7 @@
      
 <br/>
 
-### Lesson 3. How to set git environment and configuration
+### Lesson 2. How to set git environment and configuration
 
 - Download and install git on your pc: https://git-scm.com/
 - check git version: open terminal or cmd then use the command `git --version` to find out whether git is installed or not. if git is installed it will return a version number of git.
@@ -42,7 +42,7 @@ git configuration
 
 <br/>
 
-### Lesson 4. creating git repo and adding new files
+### Lesson 3. creating git repo and adding new files
 
 1.  creating a git folder
 
@@ -82,7 +82,7 @@ git configuration
 
 <br/>
 
-### Lesson 5. how to add files in staging area & remove files
+### Lesson 4. how to add files in staging area & remove files
 
 1.  adding files to stagging area:
 
@@ -96,7 +96,7 @@ git configuration
 
 <br/>
 
-### Lesson 6. commit & uncommit
+### Lesson 5. commit & uncommit
 
 - `git commit -m "message"` move the file to local repository from stagging area
 - `git log` check the commit history
@@ -106,7 +106,7 @@ git configuration
 
 <br/>
 
-### Lesson 7. git HEAD and undo theory
+### Lesson 6. git HEAD and undo theory
 
 - `git log --oneline`
 - `git show`
@@ -115,14 +115,10 @@ git configuration
 - `git checkout commit-id`
 - `git checkout master`
 
-<br/>
-
-### Lesson 8. git HEAD and undo practical
-
 
 <br/>
 
-### Lesson 9. git ignore
+### Lesson 7. git ignore
 
 - create a .gitignore file and add the things you do not want to add in the stagging area
 - Inside .gitignore we can keep secret files, hidden files, temporary files, log files
@@ -134,14 +130,14 @@ git configuration
 
 <br/>
 
-### Lesson 10. how to create github repository and commits
+### Lesson 8. how to create github repository and commits
 
 - sign in to your github account
 - create a git repo
 
 <br/>
 
-### Lesson 11. README.md
+### Lesson 9. README.md
 
 - 6 heading levels: number of hashes define heading levels. check the following examples:
   - `# heading 1 level text is here`
@@ -200,6 +196,8 @@ git configuration
 
 - adding image syntax -> `![alt text](imageURL)`
       `![1800 milestone](https://i.postimg.cc/qvZpmxKF/1-800-Uploads-Milestone.png)`
+<br>
+### Lesson 10. Adding emoji
 
 - adding emoji   
       [emoji src](https://getemoji.com/)
@@ -221,7 +219,7 @@ git configuration
 
 <br>
 
-### Lesson 12. Connecting local repo to remote repo
+### Lesson 11. Connecting local repo to remote repo
 
 - check remote connection: `git remote` or `git remote -v`
 - `git remote add name <REMOTE_URL>` example: git remote add origin http://...
@@ -229,7 +227,7 @@ git configuration
 
 <br>
 
-### Lesson 13. push and pull
+### Lesson 12. push and pull
 
 - push a branch `git push -u origin branch_name`
 - push all branches `git push --all`
@@ -237,7 +235,7 @@ git configuration
 
 <br>
 
-### Lesson 14. branching and merging
+### Lesson 13. branching and merging
 
 - Branch is a new and separate branch of master/main repository
 - create a branch `git branch branch_name`
@@ -256,7 +254,7 @@ git configuration
 
 <br>
 
-### Lesson 15. 2-way and 3-way merges
+### Lesson 14. 2-way and 3-way merges
 
 - Reeference:
   - https://www.tutorialspoint.com/what-is-a-fast-forward-merge-in-git
@@ -265,7 +263,7 @@ git configuration
 
 <br>
 
-### Lesson 16. Merge Conflicts
+### Lesson 15. Merge Conflicts
 
 - https://www.tutorialspoint.com/what-is-merge-conflict-in-git-how-to-handle-merge-conflicts
 
